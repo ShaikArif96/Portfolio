@@ -98,11 +98,9 @@ export const Hero = memo(() => {
     const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
 
     const socialLinks = useMemo(() => [
-        { icon: Github, href: "https://github.com/mamoon-5g", label: "GitHub Profile" },
-        { icon: Linkedin, href: "https://linkedin.com/in/mamoon-siddiqui-5g", label: "LinkedIn Profile" },
-        { icon: Instagram, href: "https://instagram.com/m_a__siddiqui_5g_", label: "Instagram Profile" },
-        { icon: Twitter, href: "https://twitter.com/mamoon_4g", label: "Twitter Profile" },
-        { icon: Code2, href: "https://leetcode.com/u/mamoon-5g", label: "LeetCode Profile" }
+        { icon: Github, href: "https://github.com/ShaikArif96", label: "GitHub Profile" },
+        { icon: Linkedin, href: "https://www.linkedin.com/in/shaik-mohammed-arif/", label: "LinkedIn Profile" },
+        { icon: Instagram, href: "https://instagram.com/mister_harryy_96", label: "Instagram Profile" },
     ], []);
 
     const duplicatedSkills = useMemo(() => [...skills, ...skills, ...skills], []);
@@ -163,7 +161,7 @@ export const Hero = memo(() => {
                                 />
                                 <span className="text-primary">Computer Engineer</span>
                                 <span className="text-muted-foreground">—</span>
-                                <span className="text-muted-foreground">Full Stack Developer</span>
+                                <span className="text-muted-foreground">AI and ML Developer</span>
                             </motion.span>
                         </motion.div>
 
@@ -306,7 +304,7 @@ export const Hero = memo(() => {
                                 animate={{ y: [0, -5, 0] }}
                                 transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
                             >
-                                <span className="text-xs text-primary font-medium">Full Stack Developer</span>
+                                <span className="text-xs text-primary font-medium">AI and ML Developer</span>
                             </motion.div>
                         </div>
                     </motion.div>

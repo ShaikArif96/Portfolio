@@ -116,9 +116,9 @@ const SkillCard = memo(({ category }) => {
 
 
 const codingProfiles = [
-    { name: "LeetCode", handle: "mamoon-5g", href: "https://leetcode.com/u/mamoon-5g", color: "#f59e0b" },
-    { name: "GitHub", handle: "mamoon-5g", href: "https://github.com/mamoon-5g", color: "#8b5cf6" },
-    { name: "LinkedIn", handle: "mamoon-siddiqui-5g", href: "https://linkedin.com/in/mamoon-siddiqui-5g", color: "#0077b5" },
+    { name: "LeetCode", handle: "arif", href: "https://leetcode.com/u/arif", color: "#f59e0b" },
+    { name: "GitHub", handle: "shaikarif96", href: "https://github.com/shaikarif96", color: "#8b5cf6" },
+    { name: "LinkedIn", handle: "shaik-mohammed-arif", href: "https://www.linkedin.com/in/shaik-mohammed-arif/", color: "#0077b5" },
 ];
 
 const CodingProfiles = memo(() => (
